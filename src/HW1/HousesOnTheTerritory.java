@@ -1,3 +1,5 @@
+package HW1;
+
 import java.util.Scanner;
 
 public class HousesOnTheTerritory {
@@ -16,10 +18,7 @@ public class HousesOnTheTerritory {
     }
 
     public static boolean areHousesCanBePlaced(int e, int f, int a, int b, int c, int d) {
-        if (((b <= f && a <= e) && ((c <= f - b && d <= e) || (d <= f - b && c <= e) || (c <= f && d <= e - a) || (d <= f && c <= e - a))) ||
-            ((a <= f && b <= e) && ((c <= f - a && d <= e) || (d <= f - a && c <= e) || (c <= f && d <= e - b) || (d <= f && c <= e - b)))) {
-            return true;
-        }
-        return false;
-      }
+        return ((b <= f && a <= e) && ((c <= f - b && d <= e) || (d <= f - b && c <= e) || (c <= f && d <= e - a) || (d <= f && c <= e - a))) ||
+                ((a <= f && b <= e) && ((c <= f - a && d <= e) || (d <= f - a && c <= e) || (c <= f && d <= e - b) || (d <= f && c <= e - b)));
+    }
 }
