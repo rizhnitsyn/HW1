@@ -1,7 +1,6 @@
 package HW3.Figures;
 
 import HW3.FiguresAbilities.DiameterCalculatable;
-import HW3.SpecialParameters;
 
 public class Circle extends Ellipse implements DiameterCalculatable {
 

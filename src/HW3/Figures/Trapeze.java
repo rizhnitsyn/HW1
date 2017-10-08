@@ -1,7 +1,5 @@
 package HW3.Figures;
 
-import HW3.Point;
-
 public class Trapeze extends Rectangle {
 
     Triangle triangle;

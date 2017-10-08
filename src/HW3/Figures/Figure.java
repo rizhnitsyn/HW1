@@ -2,7 +2,6 @@ package HW3.Figures;
 
 import HW3.FiguresAbilities.AreaCalculatable;
 import HW3.FiguresAbilities.PerimeterCalculatable;
-import HW3.SpecialParameters;
 
 public abstract class Figure implements AreaCalculatable, PerimeterCalculatable {
     private String name;

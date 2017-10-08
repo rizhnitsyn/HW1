@@ -1,4 +1,4 @@
-package HW3;
+package HW3.Figures;
 
 public class Point {
     private int x;

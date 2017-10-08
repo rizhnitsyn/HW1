@@ -2,8 +2,6 @@ package HW3.Figures;
 
 import HW3.FiguresAbilities.DiagonalCalculatable;
 import HW3.FiguresAbilities.HalfPerimeterCalculatable;
-import HW3.Point;
-import HW3.SpecialParameters;
 
 public class Rectangle extends Figure implements DiagonalCalculatable, HalfPerimeterCalculatable {
     private Point leftTop;

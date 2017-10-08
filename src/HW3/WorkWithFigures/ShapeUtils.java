@@ -1,4 +1,4 @@
-package HW3;
+package HW3.WorkWithFigures;
 
 import HW3.Figures.Figure;
 import HW3.Figures.Rectangle;

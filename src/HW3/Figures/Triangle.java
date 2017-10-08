@@ -1,8 +1,6 @@
 package HW3.Figures;
 
 import HW3.FiguresAbilities.HalfPerimeterCalculatable;
-import HW3.Point;
-import HW3.SpecialParameters;
 import HW3.FiguresAbilities.TriangleHeightCalculatable;
 
 public class Triangle extends Figure implements TriangleHeightCalculatable, HalfPerimeterCalculatable {
