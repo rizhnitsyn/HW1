@@ -11,6 +11,7 @@ public class MarkLength4 {
         stringList.add("");
         stringList.add("123w4");
         markLength4(stringList);
+
         for (String string: stringList) {
             System.out.println(string);
         }
