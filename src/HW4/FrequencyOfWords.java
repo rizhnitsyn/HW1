@@ -23,7 +23,7 @@ public class FrequencyOfWords  {
             }
         }
         for (Map.Entry<String, Integer> pair: map.entrySet()) {
-            System.out.println(pair.getKey() + " - " +pair.getValue());
+            System.out.println(pair.getKey() + " - " + pair.getValue());
         }
     }
 }

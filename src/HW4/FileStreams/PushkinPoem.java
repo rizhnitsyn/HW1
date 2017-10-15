@@ -28,7 +28,7 @@ public class PushkinPoem {
         File file = new File(FILE_DIRECTORY,"pushkinChars.txt");
         try (FileWriter fileWriter = new FileWriter(file)){
             for (Map.Entry<Character, Integer> pair : map.entrySet()) {
-                fileWriter.write( pair.getKey() + " - " +pair.getValue() + "\n");
+                fileWriter.write( pair.getKey() + " - " + pair.getValue() + "\n");
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -47,7 +47,7 @@ public class PushkinPoem {
 
     public static void printMap(Map<Character, Integer> map) {
         for (Map.Entry<Character, Integer> pair : map.entrySet()) {
-            System.out.println(pair.getKey() + " - " +pair.getValue());
+            System.out.println(pair.getKey() + " - " + pair.getValue());
         }
     }
 }
