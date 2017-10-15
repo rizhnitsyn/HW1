@@ -1,4 +1,4 @@
-package HW4;
+package HW4.Cars;
 
 public interface Descriable {
     String getDescription();

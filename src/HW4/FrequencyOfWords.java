@@ -17,7 +17,7 @@ public class FrequencyOfWords  {
         Map<String,Integer> map =  new HashMap<>();
         for (String word: words) {
             if (map.containsKey(word)) {
-                map.replace(word, map.get(word) + 1);
+                map.put(word, map.get(word) + 1);
             } else {
                 map.put(word, 1);
             }

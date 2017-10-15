@@ -1,4 +1,4 @@
-package HW4;
+package HW4.Cars;
 
 public class AllTerrainCars extends Cars {
     private boolean allWheelDrive;
