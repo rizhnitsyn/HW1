@@ -57,9 +57,9 @@ public class GarbageWorker implements Callable<List<DetailForRobot>> {
         synchronized (GarbageDump.listOfDetailsOnDump()) {
             int dumpSize = detailsOnDump.size();
             if (dumpSize > 0) {
-                int indexOfFoundedDetail = generator.nextInt(dumpSize);
-                detailForRobot = detailsOnDump.get(indexOfFoundedDetail);
-                detailsOnDump.remove(indexOfFoundedDetail);
+                int indexOfFoundDetail = generator.nextInt(dumpSize);
+                detailForRobot = detailsOnDump.get(indexOfFoundDetail);
+                detailsOnDump.remove(indexOfFoundDetail);
             }
         }
         return detailForRobot;
